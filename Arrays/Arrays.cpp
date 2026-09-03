@@ -4,47 +4,73 @@
 #include <iostream>
 using namespace std;
 
-bool allocate_array(unsigned n) {
+int lenght = 100;
+int highestInt;
+int _array[100];
 
+
+bool AllocateArray(unsigned n) {
 
     //int _array[100]{};
     //unsigned n = 100;
 
     cout << "Reserving memory...";
-    int* _array = new int[n];
+    //int* arrayAllocate = new int[n];
     cout << "Done!" << endl;
 
     cout << "Assigning data into array...";
-    for (int i = 0; i < 100; i++)
+    for (int i = 0; i < lenght; i++)
         _array[i] = i;
     cout << "Done!" << endl;
 
-    // for (int i = 0; i < 100000; i++)
-    //    cout << "array[" << i << "]: "  << _array[i] << endl;
+     for (int i = 0; i < lenght; i++)
+        cout << "array[" << i << "]: "  << _array[i] << endl;
 
-    cout << "Freeing memory...";
-    delete[] _array;
-    cout << "Done!" << endl;
-
-
+    //cout << "Freeing memory...";
+    //delete[] _array;
+    //cout << "Done!" << endl;
 
     return true;
 }
 
-int main()
-{
-    for (int i = 0; i < 100; i++) {
-        allocate_array(10000000);
+int FindMax(int arrayMax[], int size) { //finds the highest array value
+
+    highestInt = arrayMax[0];
+
+    for (int i = 0; i < size; i++) {
+        if (arrayMax[i] > highestInt) {
+            highestInt = arrayMax[i];
+        }
     }
+    //cout << "Highest: " << highestInt << endl;
+    return highestInt;
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+int Randomize() { //randomizes array
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+    cout << "MIXING";
+    srand(time(0));
+    cout << "RAND_MAX" << RAND_MAX << endl;
+
+    unsigned n = 10;
+
+    //int* arr = new int[n];
+
+    for (unsigned i = 0; i < n; i++) {
+        _array[i] = rand();
+        cout << _array[i] << endl;
+    }
+
+    return n;
+}
+
+int main()
+{
+
+    AllocateArray(lenght);
+    Randomize();
+
+    int max = FindMax(_array, lenght);
+
+    cout << "Max: " << FindMax(_array, lenght) << endl;
+}
