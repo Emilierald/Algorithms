@@ -1,35 +1,50 @@
 // Arrays.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
 using namespace std;
 
-int lenght = 100;
+int length = 100;
 int highestInt;
-int _array[100];
 
+int arrayMixed[100];
 int* arrayAllocate = new int[100];
 
 
-bool AllocateArray(int arrayAlloc[], unsigned n) {
+bool AllocateArray(unsigned n) { // add values to p array and allocate memory
 
     //int _array[100]{};
     //unsigned n = 100;
 
     cout << "Reserving memory...";
-    //int* arrayAllocate = new int[n];
+    int* arrayAllocate = new int[n];
     cout << "Done!" << endl;
 
     cout << "Assigning data into array...";
-    for (int i = 0; i < lenght; i++)
-        arrayAlloc[i] = i;
+    for (int i = 0; i < length; i++)
+        arrayAllocate[i] = i;
     cout << "Done!" << endl;
 
-     for (int i = 0; i < lenght; i++)
-        cout << "array[" << i << "]: "  << arrayAlloc[i] << endl;
+     for (int i = 0; i < length; i++)
+        cout << "array[" << i << "]: "  << arrayAllocate[i] << endl;
 
     cout << "Freeing memory...";
-    delete[] arrayAlloc;
+    delete[] arrayAllocate;
+    cout << "Done!" << endl;
+
+    return true;
+}
+
+bool AssignArray(int arrayAdd[], unsigned n) { // add values to p array
+
+    cout << "Assigning data into array...";
+    for (int i = 0; i < length; i++)
+        arrayAdd[i] = i;
+    cout << "Done!" << endl;
+
+    for (int i = 0; i < length; i++)
+        cout << "array[" << i << "]: " << arrayAdd[i] << endl;
+
+    cout << "Freeing memory...";
+    delete[] arrayAdd;
     cout << "Done!" << endl;
 
     return true;
@@ -48,31 +63,29 @@ int FindMax(int arrayMax[], int size) { //finds the highest array value
     return highestInt;
 }
 
-int Randomize() { //randomizes array
+int Randomize(int arrayMix[], int size) { //add random values and randomizes array
 
-    cout << "MIXING";
+    cout << "MIXING!" << endl;
     srand(time(0));
-    cout << "RAND_MAX" << RAND_MAX << endl;
-
-    unsigned n = 10;
-
+    //cout << "RAND_MAX" << RAND_MAX << endl;
+    //unsigned n = 10;
     //int* arr = new int[n];
 
-    for (unsigned i = 0; i < n; i++) {
-        _array[i] = rand();
-        cout << _array[i] << endl;
+    for (int i = 0; i < size; i++) {
+        arrayMix[i] = rand();
+        cout << arrayMix[i] << endl;
     }
 
-    return n;
+    return size;
 }
 
 int main()
 {
+    AllocateArray(length);
+    AssignArray(arrayAllocate, length);
+    Randomize(arrayMixed, length);
 
-    AllocateArray(arrayAllocate, lenght);
-    Randomize();
+    //int max = FindMax(arrayMixed, length);
 
-    int max = FindMax(_array, lenght);
-
-    cout << "Max: " << FindMax(_array, lenght) << endl;
+    cout << "Max in arrayMixed: " << FindMax(arrayMixed, length) << endl;
 }
