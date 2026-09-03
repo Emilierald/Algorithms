@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\emili\\Documents\\GitHub\\Algoritmit\\Algorithms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2CB3E759-EB36-4B97-92BC-F3952BD3F9F9}|Arrays\\Arrays.vcxproj|C:\\Users\\emili\\Documents\\GitHub\\Algoritmit\\Algorithms\\Arrays\\Arrays.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2CB3E759-EB36-4B97-92BC-F3952BD3F9F9}|Arrays\\Arrays.vcxproj|solutionrelative:Arrays\\Arrays.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A316FB9B-5DAE-4BAC-84D8-5DB9603A142E}|ArraysHome2\\ArraysHome2.vcxproj|C:\\Users\\emili\\Documents\\GitHub\\Algoritmit\\Algorithms\\ArraysHome2\\ArraysHome2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A316FB9B-5DAE-4BAC-84D8-5DB9603A142E}|ArraysHome2\\ArraysHome2.vcxproj|solutionrelative:ArraysHome2\\ArraysHome2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F2B06B-A7F9-4B69-8458-86552FF9ECAD}|ArraysHome\\ArraysHome.vcxproj|C:\\Users\\emili\\Documents\\GitHub\\Algoritmit\\Algorithms\\ArraysHome\\ArraysHome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{72F2B06B-A7F9-4B69-8458-86552FF9ECAD}|ArraysHome\\ArraysHome.vcxproj|solutionrelative:ArraysHome\\ArraysHome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Arrays.cpp",
-              "DocumentMoniker": "C:\\Users\\emili\\Documents\\GitHub\\Algoritmit\\Algorithms\\Arrays\\Arrays.cpp",
-              "RelativeDocumentMoniker": "Arrays\\Arrays.cpp",
-              "ToolTip": "C:\\Users\\emili\\Documents\\GitHub\\Algoritmit\\Algorithms\\Arrays\\Arrays.cpp",
-              "RelativeToolTip": "Arrays\\Arrays.cpp",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEEAAABCAAAAAAAAAA==",
+              "Title": "ArraysHome2.cpp",
+              "DocumentMoniker": "C:\\Users\\emili\\Documents\\GitHub\\Algoritmit\\Algorithms\\ArraysHome2\\ArraysHome2.cpp",
+              "RelativeDocumentMoniker": "ArraysHome2\\ArraysHome2.cpp",
+              "ToolTip": "C:\\Users\\emili\\Documents\\GitHub\\Algoritmit\\Algorithms\\ArraysHome2\\ArraysHome2.cpp",
+              "RelativeToolTip": "ArraysHome2\\ArraysHome2.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAA0AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-09-03T11:55:35.528Z",
+              "WhenOpened": "2026-09-03T13:31:36.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ArraysHome.cpp",
+              "DocumentMoniker": "C:\\Users\\emili\\Documents\\GitHub\\Algoritmit\\Algorithms\\ArraysHome\\ArraysHome.cpp",
+              "RelativeDocumentMoniker": "ArraysHome\\ArraysHome.cpp",
+              "ToolTip": "C:\\Users\\emili\\Documents\\GitHub\\Algoritmit\\Algorithms\\ArraysHome\\ArraysHome.cpp",
+              "RelativeToolTip": "ArraysHome\\ArraysHome.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-09-03T12:17:09.259Z",
               "EditorCaption": ""
             }
           ]

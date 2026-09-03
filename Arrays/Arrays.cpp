@@ -81,11 +81,13 @@ int Randomize(int arrayMix[], int size) { //add random values and randomizes arr
 
 int main()
 {
-    AllocateArray(length);
-    AssignArray(arrayAllocate, length);
-    Randomize(arrayMixed, length);
+    //AllocateArray(length);
+    //AssignArray(arrayAllocate, length);
+    //Randomize(arrayMixed, length);
 
     //int max = FindMax(arrayMixed, length);
 
-    cout << "Max in arrayMixed: " << FindMax(arrayMixed, length) << endl;
+    //cout << "Max in arrayMixed: " << FindMax(arrayMixed, length) << endl;
+
+
 }
