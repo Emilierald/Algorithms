@@ -8,8 +8,10 @@ int lenght = 100;
 int highestInt;
 int _array[100];
 
+int* arrayAllocate = new int[100];
 
-bool AllocateArray(unsigned n) {
+
+bool AllocateArray(int arrayAlloc[], unsigned n) {
 
     //int _array[100]{};
     //unsigned n = 100;
@@ -20,15 +22,15 @@ bool AllocateArray(unsigned n) {
 
     cout << "Assigning data into array...";
     for (int i = 0; i < lenght; i++)
-        _array[i] = i;
+        arrayAlloc[i] = i;
     cout << "Done!" << endl;
 
      for (int i = 0; i < lenght; i++)
-        cout << "array[" << i << "]: "  << _array[i] << endl;
+        cout << "array[" << i << "]: "  << arrayAlloc[i] << endl;
 
-    //cout << "Freeing memory...";
-    //delete[] _array;
-    //cout << "Done!" << endl;
+    cout << "Freeing memory...";
+    delete[] arrayAlloc;
+    cout << "Done!" << endl;
 
     return true;
 }
@@ -67,7 +69,7 @@ int Randomize() { //randomizes array
 int main()
 {
 
-    AllocateArray(lenght);
+    AllocateArray(arrayAllocate, lenght);
     Randomize();
 
     int max = FindMax(_array, lenght);
