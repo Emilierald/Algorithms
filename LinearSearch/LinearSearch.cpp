@@ -22,6 +22,7 @@ int gcd(int a, int b) { //find the highest remainder
 	return b;
 }
 
+//
 //linear search assumes that a[] is in ascending order!!!
 int LinearSearch(int* a, int x, int n) { //find the index of the given value
 
