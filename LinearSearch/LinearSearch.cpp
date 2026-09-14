@@ -6,23 +6,6 @@
 using namespace std;
 using namespace std::chrono;
 
-int gcd(int a, int b) { //find the highest remainder
-
-	if (a < b || a == 0 || b == 0)  //check if values are appropiate ( a is bigger than b, values are not 0)
-		return -1;
-
-	int r = a % b; //calculate 1st remainder
-
-	while (r > 0) { //loop until remainder = 0
-		a = b;		//a <-- b
-		b = r;		//b <-- r
-		r = a % b;	//remainder
-	}
-
-	return b;
-}
-
-//
 //linear search assumes that a[] is in ascending order!!!
 int LinearSearch(int* a, int x, int n) { //find the index of the given value
 
@@ -36,7 +19,31 @@ int LinearSearch(int* a, int x, int n) { //find the index of the given value
 }
 
 //binary search assumes that a[] is in ascending order!!!
-long long unsigned BinarySearch(long long int* a, long long  int x, long long int n) {//find the index of the given value more efficiently
+unsigned BinarySearch( int* a, int x, int n) {//find the index of the given value more efficiently
+
+	int left, right, mid; // left and right indexes of current search area
+	left = 0; right = n - 1;
+	for (int i = 0; i < 1000000; i++);
+
+	while (left != right) {
+		mid = (left + right) / 2; //find the midpoint
+
+		if (a[mid] == x) return mid; //optional check 
+		if (a[mid] > x) { //middle item is bigger
+			//choose the left part
+			right = mid - 1;
+		}
+		else { //middle item is smaller
+			left = mid + 1; //or with the optional check: left = mid + 1
+		}
+	}
+	if (a[mid] == x) return mid;
+
+	return -1;
+}
+
+//binary search assumes that a[] is in ascending order!!!
+long long unsigned BinarySearchLongLong(long long int* a, long long  int x, long long int n) {//find the index of the given value more efficiently
 
 	long long left, right, mid; // left and right indexes of current search area
 	left = 0; right = n - 1;
@@ -60,14 +67,14 @@ long long unsigned BinarySearch(long long int* a, long long  int x, long long in
 
 static int* AllocateArray(int n) { // add values to p array and allocate memory
 
-	cout << "Reserving memory...";
+	//cout << "Reserving memory...";
 	int* arrayAllocate = new int[n];
-	cout << "Done!" << endl;
+	//cout << "Done!" << endl;
 
-	cout << "Assigning data into array...";
+	//cout << "Assigning data into array...";
 	for (int i = 0; i < n; i++)
 		arrayAllocate[i] = i;
-	cout << "Done!" << endl;
+	//cout << "Done!" << endl;
 
 	//for (int i = 0; i < 100; i++)
 	//	cout << "array[" << i << "]: " << arrayAllocate[i] << endl;
@@ -79,7 +86,7 @@ static int* AllocateArray(int n) { // add values to p array and allocate memory
 	return arrayAllocate;
 }
 
-static long long int* AllocateArrayLong(long long int n) { // add values to p array and allocate memory
+static long long int* AllocateArrayLong(long long int n) { // add values to p array and allocate memory (with long long)
 
 	cout << "Reserving memory...";
 	long long int* arrayAllocate = new long long int[n];
@@ -93,33 +100,79 @@ static long long int* AllocateArrayLong(long long int n) { // add values to p ar
 	return arrayAllocate;
 }
 
-//
-// MAIN
-//
-int main()
-{
-	int a = 55;
-	int b = 30;
+int timesExecuted = 5; //how many times the searches are repeated
 
-	cout << "gcd(" << a << ", " << b << ") = " << gcd(a, b) << endl;
+bool MeasureLinearSearch(int lenght, int x) {
 
-	//int n = 100000000000; //length
-	//int* arr = AllocateArray(n); //array
+	int n = lenght; //length
+	int* arr = AllocateArray(n); //array
 	//int x = 43; //element to find
 
-	//cout << "Linear search(a," << x << ", " << n << ") = " << LinearSearch(arr, x, n) << endl;
+	auto start = high_resolution_clock::now(); // start measuring time
 
-	long long int n = 100000000; //length
-	long long int* arrr = AllocateArrayLong(n); //array
-	long long int x = 43; //element to find
+	for (int i = 0; i < timesExecuted; i++) {
+		LinearSearch(arr, x, n); // execute linear search
+		//cout << "Linear search(a, " << x << ", " << n << ") = " << LinearSearch(arr, x, n) << endl; // execute linear search
+	}
 
-	cout << "Binary search(a, " << x << ", " << n << ") = " << BinarySearch(arrr, x, n) << endl;
+	auto end = high_resolution_clock::now(); // stop measuring time
+
+	auto duration = duration_cast<microseconds>((end - start) / timesExecuted); // count duration
+	cout << "Linear search execution Time: " << duration.count() << " microseconds" << endl; // duration
+
+	return true;
+}
+
+bool MeasureBinarySearch(int length, int x) {
+	int n = length; //length
+	int* arr = AllocateArray(n); //array
+	//int x = 43; //element to find
+
+	auto start = high_resolution_clock::now(); // start measuring time
+
+	for (int i = 0; i < timesExecuted; i++) {
+		BinarySearch(arr, x, n); // execute binary search
+		//cout << "Binary search(a, " << x << ", " << n << ") = " << BinarySearch(arr, x, n) << endl; // execute binary search
+	}
+	//for (int i = 0; i < 1000000; i++);
+
+
+	auto end = high_resolution_clock::now(); // stop measuring time
+
+	auto duration = duration_cast<microseconds>((end - start) / timesExecuted); // count duration
+	cout << "Binary search execution Time: " << duration.count() << " microseconds" << endl; // duration
+
+	return true;
+}
+
+// MAIN
+int main()
+{
+	// Get a different random number each time the program runs
+	srand(time(0));
+	int randInt1 = rand() % 100001;
+	int randInt2 = rand() % 1000001;
+	int randInt3 = rand() % 10000001;
+
+	// LINEAR SEARCH
+	cout << endl << "LINEAR SEARCH WITH LIST LENGHT OF 100 000: " << endl;
+	MeasureLinearSearch(100000, randInt1);
+	cout << endl << "LINEAR SEARCH WITH LIST LENGHT OF 1 000 000: " << endl;
+	MeasureLinearSearch(1000000, randInt2);
+	cout << endl << "LINEAR SEARCH WITH LIST LENGHT OF 10 000 000: " << endl;
+	MeasureLinearSearch(10000000, randInt3);
+
+	cout << endl;
+
+	// BINARY SEARCH
+	cout << endl << "BINARY SEARCH WITH LIST LENGHT OF 100 000: " << endl;
+	MeasureBinarySearch(100000, randInt1);
+	cout << endl << "BINARY SEARCH WITH LIST LENGHT OF 1 000 000: " << endl;
+	MeasureBinarySearch(1000000, randInt2);
+	cout << endl << "BINARY SEARCH WITH LIST LENGHT OF 10 000 000: " << endl;
+	MeasureBinarySearch(10000000, randInt3);
 
 	return EXIT_SUCCESS;
 }
-//
-//
-//
-
 
 
