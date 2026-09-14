@@ -23,7 +23,6 @@ unsigned BinarySearch( int* a, int x, int n) {//find the index of the given valu
 
 	int left, right, mid; // left and right indexes of current search area
 	left = 0; right = n - 1;
-	for (int i = 0; i < 1000000; i++);
 
 	while (left != right) {
 		mid = (left + right) / 2; //find the midpoint
@@ -100,7 +99,7 @@ static long long int* AllocateArrayLong(long long int n) { // add values to p ar
 	return arrayAllocate;
 }
 
-int timesExecuted = 5; //how many times the searches are repeated
+int timesExecuted = 10; //how many times the searches are repeated
 
 bool MeasureLinearSearch(int lenght, int x) {
 
@@ -134,8 +133,6 @@ bool MeasureBinarySearch(int length, int x) {
 		BinarySearch(arr, x, n); // execute binary search
 		//cout << "Binary search(a, " << x << ", " << n << ") = " << BinarySearch(arr, x, n) << endl; // execute binary search
 	}
-	//for (int i = 0; i < 1000000; i++);
-
 
 	auto end = high_resolution_clock::now(); // stop measuring time
 
