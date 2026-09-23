@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FAEC3842-B159-43C8-A888-85113412778A}|Ackerman\\Ackerman.vcxproj|C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\Ackerman\\Ackerman.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FAEC3842-B159-43C8-A888-85113412778A}|Ackerman\\Ackerman.vcxproj|solutionrelative:Ackerman\\Ackerman.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82A42BB7-C523-437A-AF06-B5EADF7456AC}|Fibonacci\\Fibonacci.vcxproj|C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\Fibonacci\\Fibonacci.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82A42BB7-C523-437A-AF06-B5EADF7456AC}|Fibonacci\\Fibonacci.vcxproj|solutionrelative:Fibonacci\\Fibonacci.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8562E1BD-74D8-4A5B-AA56-03B8C0CEF927}|LinearSearch\\LinearSearch.vcxproj|C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\LinearSearch\\LinearSearch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8562E1BD-74D8-4A5B-AA56-03B8C0CEF927}|LinearSearch\\LinearSearch.vcxproj|solutionrelative:LinearSearch\\LinearSearch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -35,19 +43,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Ackerman.cpp",
+              "DocumentMoniker": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\Ackerman\\Ackerman.cpp",
+              "RelativeDocumentMoniker": "Ackerman\\Ackerman.cpp",
+              "ToolTip": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\Ackerman\\Ackerman.cpp",
+              "RelativeToolTip": "Ackerman\\Ackerman.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-09-23T14:53:54.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Fibonacci.cpp",
+              "DocumentMoniker": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\Fibonacci\\Fibonacci.cpp",
+              "RelativeDocumentMoniker": "Fibonacci\\Fibonacci.cpp",
+              "ToolTip": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\Fibonacci\\Fibonacci.cpp",
+              "RelativeToolTip": "Fibonacci\\Fibonacci.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-09-23T12:56:34.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "LinearSearch.cpp",
               "DocumentMoniker": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\LinearSearch\\LinearSearch.cpp",
               "RelativeDocumentMoniker": "LinearSearch\\LinearSearch.cpp",
               "ToolTip": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\LinearSearch\\LinearSearch.cpp",
               "RelativeToolTip": "LinearSearch\\LinearSearch.cpp",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAAAIUAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-09-13T18:42:44.27Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Euclid.cpp",
               "DocumentMoniker": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\Euclid\\Euclid.cpp",
               "RelativeDocumentMoniker": "Euclid\\Euclid.cpp",
@@ -55,11 +89,12 @@
               "RelativeToolTip": "Euclid\\Euclid.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-09-13T18:42:44.512Z"
+              "WhenOpened": "2026-09-13T18:42:44.512Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ArraysHome2.cpp",
               "DocumentMoniker": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\ArraysHome2\\ArraysHome2.cpp",
               "RelativeDocumentMoniker": "ArraysHome2\\ArraysHome2.cpp",
@@ -71,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ArraysHome.cpp",
               "DocumentMoniker": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\ArraysHome\\ArraysHome.cpp",
               "RelativeDocumentMoniker": "ArraysHome\\ArraysHome.cpp",
@@ -83,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Arrays.cpp",
               "DocumentMoniker": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\Arrays\\Arrays.cpp",
               "RelativeDocumentMoniker": "Arrays\\Arrays.cpp",
