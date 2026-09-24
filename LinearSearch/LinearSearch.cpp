@@ -21,7 +21,7 @@ int LinearSearch(int* a, int x, int n) { //find the index of the given value
 //binary search assumes that a[] is in ascending order!!!
 unsigned BinarySearch( int* a, int x, int n) {//find the index of the given value more efficiently
 
-	int left, right, mid; // left and right indexes of current search area
+	int left, right, mid = -1; // left and right indexes of current search area
 	left = 0; right = n - 1;
 
 	while (left != right) {
@@ -44,7 +44,7 @@ unsigned BinarySearch( int* a, int x, int n) {//find the index of the given valu
 //binary search assumes that a[] is in ascending order!!!
 long long unsigned BinarySearchLongLong(long long int* a, long long  int x, long long int n) {//find the index of the given value more efficiently
 
-	long long left, right, mid; // left and right indexes of current search area
+	long long left, right, mid = -1; // left and right indexes of current search area
 	left = 0; right = n - 1;
 
 	while (left != right) {
