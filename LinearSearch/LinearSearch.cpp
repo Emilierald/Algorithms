@@ -101,7 +101,7 @@ static long long int* AllocateArrayLong(long long int n) { // add values to p ar
 
 int timesExecuted = 10; //how many times the searches are repeated
 
-bool MeasureSimpleSort(int lenght, int x) {
+bool MeasureLinearSearch(int lenght, int x) {
 
 	int n = lenght; //length
 	int* arr = AllocateArray(n); //array
@@ -153,11 +153,11 @@ int main()
 
 	// LINEAR SEARCH
 	cout << endl << "LINEAR SEARCH WITH LIST LENGHT OF 100 000: " << endl;
-	MeasureSimpleSort(100000, randInt1);
+	MeasureLinearSearch(100000, randInt1);
 	cout << endl << "LINEAR SEARCH WITH LIST LENGHT OF 1 000 000: " << endl;
-	MeasureSimpleSort(1000000, randInt2);
+	MeasureLinearSearch(1000000, randInt2);
 	cout << endl << "LINEAR SEARCH WITH LIST LENGHT OF 10 000 000: " << endl;
-	MeasureSimpleSort(10000000, randInt3);
+	MeasureLinearSearch(10000000, randInt3);
 
 	cout << endl;
 
