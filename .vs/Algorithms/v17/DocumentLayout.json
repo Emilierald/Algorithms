@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82A42BB7-C523-437A-AF06-B5EADF7456AC}|Fibonacci\\Fibonacci.vcxproj|C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\Fibonacci\\Fibonacci.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{82A42BB7-C523-437A-AF06-B5EADF7456AC}|Fibonacci\\Fibonacci.vcxproj|solutionrelative:Fibonacci\\Fibonacci.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A07D1505-2283-4193-B726-2A38F4E4BE8F}|LinkedList\\LinkedList.vcxproj|C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\LinkedList\\LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A07D1505-2283-4193-B726-2A38F4E4BE8F}|LinkedList\\LinkedList.vcxproj|solutionrelative:LinkedList\\LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8562E1BD-74D8-4A5B-AA56-03B8C0CEF927}|LinearSearch\\LinearSearch.vcxproj|C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\LinearSearch\\LinearSearch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8562E1BD-74D8-4A5B-AA56-03B8C0CEF927}|LinearSearch\\LinearSearch.vcxproj|solutionrelative:LinearSearch\\LinearSearch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A07D1505-2283-4193-B726-2A38F4E4BE8F}|LinkedList\\LinkedList.vcxproj|C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\LinkedList\\node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A07D1505-2283-4193-B726-2A38F4E4BE8F}|LinkedList\\LinkedList.vcxproj|solutionrelative:LinkedList\\node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CB3E759-EB36-4B97-92BC-F3952BD3F9F9}|Arrays\\Arrays.vcxproj|C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\Arrays\\Arrays.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2CB3E759-EB36-4B97-92BC-F3952BD3F9F9}|Arrays\\Arrays.vcxproj|solutionrelative:Arrays\\Arrays.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A07D1505-2283-4193-B726-2A38F4E4BE8F}|LinkedList\\LinkedList.vcxproj|C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\LinkedList\\LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A07D1505-2283-4193-B726-2A38F4E4BE8F}|LinkedList\\LinkedList.vcxproj|solutionrelative:LinkedList\\LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{522A4BCD-7FF1-42FD-B23E-AEA575EF169D}|Euclid\\Euclid.vcxproj|C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\Euclid\\Euclid.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{522A4BCD-7FF1-42FD-B23E-AEA575EF169D}|Euclid\\Euclid.vcxproj|solutionrelative:Euclid\\Euclid.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A316FB9B-5DAE-4BAC-84D8-5DB9603A142E}|ArraysHome2\\ArraysHome2.vcxproj|C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\ArraysHome2\\ArraysHome2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A316FB9B-5DAE-4BAC-84D8-5DB9603A142E}|ArraysHome2\\ArraysHome2.vcxproj|solutionrelative:ArraysHome2\\ArraysHome2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72F2B06B-A7F9-4B69-8458-86552FF9ECAD}|ArraysHome\\ArraysHome.vcxproj|C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\ArraysHome\\ArraysHome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{72F2B06B-A7F9-4B69-8458-86552FF9ECAD}|ArraysHome\\ArraysHome.vcxproj|solutionrelative:ArraysHome\\ArraysHome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A07D1505-2283-4193-B726-2A38F4E4BE8F}|LinkedList\\LinkedList.vcxproj|C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\LinkedList\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A07D1505-2283-4193-B726-2A38F4E4BE8F}|LinkedList\\LinkedList.vcxproj|solutionrelative:LinkedList\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,81 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Fibonacci.cpp",
-              "DocumentMoniker": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\Fibonacci\\Fibonacci.cpp",
-              "RelativeDocumentMoniker": "Fibonacci\\Fibonacci.cpp",
-              "ToolTip": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\Fibonacci\\Fibonacci.cpp",
-              "RelativeToolTip": "Fibonacci\\Fibonacci.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\LinkedList\\main.cpp",
+              "RelativeDocumentMoniker": "LinkedList\\main.cpp",
+              "ToolTip": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\LinkedList\\main.cpp",
+              "RelativeToolTip": "LinkedList\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-09-24T06:05:46.093Z",
+              "WhenOpened": "2026-10-01T07:40:22.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LinkedList.h",
+              "DocumentMoniker": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\LinkedList\\LinkedList.h",
+              "RelativeDocumentMoniker": "LinkedList\\LinkedList.h",
+              "ToolTip": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\LinkedList\\LinkedList.h",
+              "RelativeToolTip": "LinkedList\\LinkedList.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-10-01T07:31:37.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LinkedList.cpp",
+              "DocumentMoniker": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\LinkedList\\LinkedList.cpp",
+              "RelativeDocumentMoniker": "LinkedList\\LinkedList.cpp",
+              "ToolTip": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\LinkedList\\LinkedList.cpp",
+              "RelativeToolTip": "LinkedList\\LinkedList.cpp",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAnwDIAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-01T07:38:10.011Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LinearSearch.cpp",
-              "DocumentMoniker": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\LinearSearch\\LinearSearch.cpp",
-              "RelativeDocumentMoniker": "LinearSearch\\LinearSearch.cpp",
-              "ToolTip": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\LinearSearch\\LinearSearch.cpp",
-              "RelativeToolTip": "LinearSearch\\LinearSearch.cpp",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAIwC4AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-09-10T07:01:04.354Z",
+              "Title": "node.h",
+              "DocumentMoniker": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\LinkedList\\node.h",
+              "RelativeDocumentMoniker": "LinkedList\\node.h",
+              "ToolTip": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\LinkedList\\node.h",
+              "RelativeToolTip": "LinkedList\\node.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-10-01T07:26:32.528Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Euclid.cpp",
-              "DocumentMoniker": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\Euclid\\Euclid.cpp",
-              "RelativeDocumentMoniker": "Euclid\\Euclid.cpp",
-              "ToolTip": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\Euclid\\Euclid.cpp",
-              "RelativeToolTip": "Euclid\\Euclid.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-09-10T06:23:37.693Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ArraysHome2.cpp",
-              "DocumentMoniker": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\ArraysHome2\\ArraysHome2.cpp",
-              "RelativeDocumentMoniker": "ArraysHome2\\ArraysHome2.cpp",
-              "ToolTip": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\ArraysHome2\\ArraysHome2.cpp",
-              "RelativeToolTip": "ArraysHome2\\ArraysHome2.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-09-03T13:31:36.897Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ArraysHome.cpp",
-              "DocumentMoniker": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\ArraysHome\\ArraysHome.cpp",
-              "RelativeDocumentMoniker": "ArraysHome\\ArraysHome.cpp",
-              "ToolTip": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\ArraysHome\\ArraysHome.cpp",
-              "RelativeToolTip": "ArraysHome\\ArraysHome.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-09-03T12:17:09.259Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Arrays.cpp",
-              "DocumentMoniker": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\Arrays\\Arrays.cpp",
-              "RelativeDocumentMoniker": "Arrays\\Arrays.cpp",
-              "ToolTip": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\Arrays\\Arrays.cpp",
-              "RelativeToolTip": "Arrays\\Arrays.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-09-10T05:23:50.738Z"
             }
           ]
         }
