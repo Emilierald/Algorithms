@@ -9,6 +9,8 @@ public:
 
 	void Insert(int value);
 
+	void InsertEnd(int value);
+
 	void Print();
 
 	bool Find(int value);

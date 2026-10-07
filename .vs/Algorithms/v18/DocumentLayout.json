@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8562E1BD-74D8-4A5B-AA56-03B8C0CEF927}|LinearSearch\\LinearSearch.vcxproj|C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\LinearSearch\\LinearSearch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8562E1BD-74D8-4A5B-AA56-03B8C0CEF927}|LinearSearch\\LinearSearch.vcxproj|solutionrelative:LinearSearch\\LinearSearch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A07D1505-2283-4193-B726-2A38F4E4BE8F}|LinkedList\\LinkedList.vcxproj|C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\LinkedList\\LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A07D1505-2283-4193-B726-2A38F4E4BE8F}|LinkedList\\LinkedList.vcxproj|solutionrelative:LinkedList\\LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A07D1505-2283-4193-B726-2A38F4E4BE8F}|LinkedList\\LinkedList.vcxproj|C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\LinkedList\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A07D1505-2283-4193-B726-2A38F4E4BE8F}|LinkedList\\LinkedList.vcxproj|solutionrelative:LinkedList\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69F9A6C4-D1B8-4DCB-AC99-2E441FCFEDED}|SortAlgoTime\\SortAlgoTime.vcxproj|C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\SortAlgoTime\\SortAlgoTime.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{69F9A6C4-D1B8-4DCB-AC99-2E441FCFEDED}|SortAlgoTime\\SortAlgoTime.vcxproj|solutionrelative:SortAlgoTime\\SortAlgoTime.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8562E1BD-74D8-4A5B-AA56-03B8C0CEF927}|LinearSearch\\LinearSearch.vcxproj|C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\LinearSearch\\LinearSearch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8562E1BD-74D8-4A5B-AA56-03B8C0CEF927}|LinearSearch\\LinearSearch.vcxproj|solutionrelative:LinearSearch\\LinearSearch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{522A4BCD-7FF1-42FD-B23E-AEA575EF169D}|Euclid\\Euclid.vcxproj|C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\Euclid\\Euclid.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -39,6 +47,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\LinkedList\\main.cpp",
+              "RelativeDocumentMoniker": "LinkedList\\main.cpp",
+              "ToolTip": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\LinkedList\\main.cpp",
+              "RelativeToolTip": "LinkedList\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-07T13:01:22.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LinkedList.cpp",
+              "DocumentMoniker": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\LinkedList\\LinkedList.cpp",
+              "RelativeDocumentMoniker": "LinkedList\\LinkedList.cpp",
+              "ToolTip": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\LinkedList\\LinkedList.cpp",
+              "RelativeToolTip": "LinkedList\\LinkedList.cpp",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAHAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-07T13:01:01.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "SortAlgoTime.cpp",
               "DocumentMoniker": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\SortAlgoTime\\SortAlgoTime.cpp",
               "RelativeDocumentMoniker": "SortAlgoTime\\SortAlgoTime.cpp",
@@ -51,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "LinearSearch.cpp",
               "DocumentMoniker": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\LinearSearch\\LinearSearch.cpp",
               "RelativeDocumentMoniker": "LinearSearch\\LinearSearch.cpp",
@@ -59,12 +93,11 @@
               "RelativeToolTip": "LinearSearch\\LinearSearch.cpp",
               "ViewState": "AgIAAFcAAAAAAAAAAAAAAGcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-09-13T18:42:44.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-13T18:42:44.27Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Euclid.cpp",
               "DocumentMoniker": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\Euclid\\Euclid.cpp",
               "RelativeDocumentMoniker": "Euclid\\Euclid.cpp",
@@ -76,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ArraysHome2.cpp",
               "DocumentMoniker": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\ArraysHome2\\ArraysHome2.cpp",
               "RelativeDocumentMoniker": "ArraysHome2\\ArraysHome2.cpp",
@@ -88,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ArraysHome.cpp",
               "DocumentMoniker": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\ArraysHome\\ArraysHome.cpp",
               "RelativeDocumentMoniker": "ArraysHome\\ArraysHome.cpp",
@@ -100,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Arrays.cpp",
               "DocumentMoniker": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\Arrays\\Arrays.cpp",
               "RelativeDocumentMoniker": "Arrays\\Arrays.cpp",
