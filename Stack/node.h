@@ -1,11 +1,13 @@
 #pragma once
-class Node
+
+//template class
+template<typename T> class Node
 {
 public:
-	int data;
+	T data;
 	Node* pNext;
 
-	Node(int data) {
+	Node(T data) {
 		this->data = data;
 		this->pNext = nullptr;
 	}
