@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A07D1505-2283-4193-B726-2A38F4E4BE8F}|LinkedList\\LinkedList.vcxproj|C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\LinkedList\\LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A07D1505-2283-4193-B726-2A38F4E4BE8F}|LinkedList\\LinkedList.vcxproj|solutionrelative:LinkedList\\LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{02C22C99-F6AF-443C-94F2-AF4A8BCB234E}|Stack\\Stack.vcxproj|C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\Stack\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{02C22C99-F6AF-443C-94F2-AF4A8BCB234E}|Stack\\Stack.vcxproj|solutionrelative:Stack\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A07D1505-2283-4193-B726-2A38F4E4BE8F}|LinkedList\\LinkedList.vcxproj|C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\LinkedList\\node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A07D1505-2283-4193-B726-2A38F4E4BE8F}|LinkedList\\LinkedList.vcxproj|solutionrelative:LinkedList\\node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{02C22C99-F6AF-443C-94F2-AF4A8BCB234E}|Stack\\Stack.vcxproj|C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\Stack\\stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{02C22C99-F6AF-443C-94F2-AF4A8BCB234E}|Stack\\Stack.vcxproj|solutionrelative:Stack\\stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A07D1505-2283-4193-B726-2A38F4E4BE8F}|LinkedList\\LinkedList.vcxproj|C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\LinkedList\\LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A07D1505-2283-4193-B726-2A38F4E4BE8F}|LinkedList\\LinkedList.vcxproj|solutionrelative:LinkedList\\LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A07D1505-2283-4193-B726-2A38F4E4BE8F}|LinkedList\\LinkedList.vcxproj|C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\LinkedList\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A07D1505-2283-4193-B726-2A38F4E4BE8F}|LinkedList\\LinkedList.vcxproj|solutionrelative:LinkedList\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{02C22C99-F6AF-443C-94F2-AF4A8BCB234E}|Stack\\Stack.vcxproj|C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\Stack\\Stack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{02C22C99-F6AF-443C-94F2-AF4A8BCB234E}|Stack\\Stack.vcxproj|solutionrelative:Stack\\Stack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\LinkedList\\main.cpp",
-              "RelativeDocumentMoniker": "LinkedList\\main.cpp",
-              "ToolTip": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\LinkedList\\main.cpp",
-              "RelativeToolTip": "LinkedList\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-10-01T07:40:22.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LinkedList.h",
-              "DocumentMoniker": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\LinkedList\\LinkedList.h",
-              "RelativeDocumentMoniker": "LinkedList\\LinkedList.h",
-              "ToolTip": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\LinkedList\\LinkedList.h",
-              "RelativeToolTip": "LinkedList\\LinkedList.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-10-01T07:31:37.925Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LinkedList.cpp",
-              "DocumentMoniker": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\LinkedList\\LinkedList.cpp",
-              "RelativeDocumentMoniker": "LinkedList\\LinkedList.cpp",
-              "ToolTip": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\LinkedList\\LinkedList.cpp",
-              "RelativeToolTip": "LinkedList\\LinkedList.cpp",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAnwDIAAABDAAAA",
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\Stack\\main.cpp",
+              "RelativeDocumentMoniker": "Stack\\main.cpp",
+              "ToolTip": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\Stack\\main.cpp",
+              "RelativeToolTip": "Stack\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-10-01T07:38:10.011Z",
+              "WhenOpened": "2026-10-08T07:00:47.7Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "node.h",
-              "DocumentMoniker": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\LinkedList\\node.h",
-              "RelativeDocumentMoniker": "LinkedList\\node.h",
-              "ToolTip": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\LinkedList\\node.h",
-              "RelativeToolTip": "LinkedList\\node.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAYAAAA",
+              "Title": "stack.h",
+              "DocumentMoniker": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\Stack\\stack.h",
+              "RelativeDocumentMoniker": "Stack\\stack.h",
+              "ToolTip": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\Stack\\stack.h",
+              "RelativeToolTip": "Stack\\stack.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-10-01T07:26:32.528Z",
+              "WhenOpened": "2026-10-08T06:56:53.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "stack.cpp",
+              "DocumentMoniker": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\Stack\\stack.cpp",
+              "RelativeDocumentMoniker": "Stack\\stack.cpp",
+              "ToolTip": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\Stack\\stack.cpp",
+              "RelativeToolTip": "Stack\\stack.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-08T06:54:49.938Z",
               "EditorCaption": ""
             }
           ]

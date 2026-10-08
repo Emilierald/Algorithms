@@ -24,8 +24,11 @@ int main() {
 	cout << "Find(): " << ll.Find(100) << endl;
 
 	cout << "Delete():" << ll.Delete(42) << endl;
+	cout << "Delete():" << ll.Delete(43) << endl;
+	cout << "Delete():" << ll.Delete(44) << endl;
 	cout << "Delete():" << ll.Delete(120) << endl;
 
+	ll.Print();
 
 	for (int i = count; i >= 1; i--) {
 		ll.Delete(i);
