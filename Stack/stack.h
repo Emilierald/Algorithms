@@ -19,8 +19,8 @@ public:
 
 	T Pop() // calling Pop() for an empty stack is NOT recommended
 	{
-		if (IsEmpty()) // if the stack is empty, just return -1
-			return static_cast<T>(-1);
+		//if (IsEmpty()) // if the stack is empty, just return -1
+			//return static_cast<T>("-1");
 
 		Node<T>* pToBeDeleted = pTop; // save curent top pointer
 		T value = pToBeDeleted->data; // save deleted data
@@ -33,8 +33,8 @@ public:
 
 	T Top()
 	{
-		if (IsEmpty()) // if the stack is empty, just return -1
-			return static_cast<T>(-1);
+		//if (IsEmpty()) // if the stack is empty, just return -1
+			//return static_cast<T>("-1");
 
 		return pTop->data; // return top data
 	}

@@ -4,6 +4,31 @@
 
 using namespace std;
 
+bool isVoid(string tagName) {
+	string voidElements[] = {
+		"area"
+		"base",
+		"br",
+		"col",
+		"embed",
+		"hr",
+		"img",
+		"input",
+		"link",
+		"meta",
+		"param",
+		"source",
+		"track",
+		"wbr",
+	};
+	for (string s : voidElements) {
+		if (s == tagName) {
+			return true;
+		}
+	}
+
+	return false;
+}
 
 int main(int argc, char** argv) {
 
@@ -23,9 +48,63 @@ int main(int argc, char** argv) {
 			return EXIT_FAILURE;
 		} 
 
+		Stack<string> stack;
+		char c;
+
+		bool insideTag = false;
+		bool closeTag = false;
+		bool writingTag = false;
+
+		string tagName = "";
+
 		// now start reading the file one char at a time
-		while (char c = fgetc(fp) != NULL) {
-			cout << c;
+		while ((c = fgetc(fp)) != EOF) {
+			//cout << c;
+			if (c == '<') { // if current char is opentag
+				insideTag = true;
+				tagName = "";
+				closeTag = false;
+				writingTag = true;
+
+				char nextChar = fgetc(fp);
+				if (nextChar == '/') { // if current char is closing tag
+					closeTag = true;
+				}
+				else {
+					tagName += nextChar; // start writing tag
+				}
+			}
+			else if (c == '>' && insideTag) {
+				insideTag = false;
+				writingTag = false;
+
+				if (!tagName.empty() && !isVoid(tagName)) { // if tag is empty or void element
+					if (!closeTag) {
+						stack.Push(tagName);
+					}
+					else {
+						if (stack.IsEmpty()) {
+							cout << "Tag unknown!" << endl;
+							fclose(fp);
+							return EXIT_FAILURE;
+						}
+						string recentTag = stack.Pop();
+						if (recentTag != tagName) {
+							cout << "Tags not matching: " << recentTag << ", " << tagName << endl;
+							fclose(fp);
+							return EXIT_FAILURE;
+						}
+					}
+				}
+			}
+			else if (insideTag) {
+				if (isspace(c)) { // ignore whitespace
+					writingTag = false;
+				}
+				else if (writingTag) { // write tag down
+					tagName += c;
+				}
+			}
 		}
 		cout << endl;
 
