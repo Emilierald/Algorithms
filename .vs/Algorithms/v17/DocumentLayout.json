@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{02C22C99-F6AF-443C-94F2-AF4A8BCB234E}|Stack\\Stack.vcxproj|C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\Stack\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{02C22C99-F6AF-443C-94F2-AF4A8BCB234E}|Stack\\Stack.vcxproj|solutionrelative:Stack\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3A2AD32A-ACF1-4750-8F78-18D24A2F0254}|BST\\BST.vcxproj|C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\BST\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3A2AD32A-ACF1-4750-8F78-18D24A2F0254}|BST\\BST.vcxproj|solutionrelative:BST\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02C22C99-F6AF-443C-94F2-AF4A8BCB234E}|Stack\\Stack.vcxproj|C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\Stack\\stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{02C22C99-F6AF-443C-94F2-AF4A8BCB234E}|Stack\\Stack.vcxproj|solutionrelative:Stack\\stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3A2AD32A-ACF1-4750-8F78-18D24A2F0254}|BST\\BST.vcxproj|C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\BST\\BST.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3A2AD32A-ACF1-4750-8F78-18D24A2F0254}|BST\\BST.vcxproj|solutionrelative:BST\\BST.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02C22C99-F6AF-443C-94F2-AF4A8BCB234E}|Stack\\Stack.vcxproj|C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\Stack\\Stack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{02C22C99-F6AF-443C-94F2-AF4A8BCB234E}|Stack\\Stack.vcxproj|solutionrelative:Stack\\Stack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3A2AD32A-ACF1-4750-8F78-18D24A2F0254}|BST\\BST.vcxproj|C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\BST\\bst.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3A2AD32A-ACF1-4750-8F78-18D24A2F0254}|BST\\BST.vcxproj|solutionrelative:BST\\bst.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02C22C99-F6AF-443C-94F2-AF4A8BCB234E}|Stack\\Stack.vcxproj|C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\Stack\\node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{02C22C99-F6AF-443C-94F2-AF4A8BCB234E}|Stack\\Stack.vcxproj|solutionrelative:Stack\\node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3A2AD32A-ACF1-4750-8F78-18D24A2F0254}|BST\\BST.vcxproj|C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\BST\\BSTNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3A2AD32A-ACF1-4750-8F78-18D24A2F0254}|BST\\BST.vcxproj|solutionrelative:BST\\BSTNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A2AD32A-ACF1-4750-8F78-18D24A2F0254}|BST\\BST.vcxproj|C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\BST\\BSTNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3A2AD32A-ACF1-4750-8F78-18D24A2F0254}|BST\\BST.vcxproj|solutionrelative:BST\\BSTNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "node.h",
-              "DocumentMoniker": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\Stack\\node.h",
-              "RelativeDocumentMoniker": "Stack\\node.h",
-              "ToolTip": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\Stack\\node.h",
-              "RelativeToolTip": "Stack\\node.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-10-08T07:50:53.787Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\Stack\\main.cpp",
-              "RelativeDocumentMoniker": "Stack\\main.cpp",
-              "ToolTip": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\Stack\\main.cpp",
-              "RelativeToolTip": "Stack\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAjAAAA",
+              "DocumentMoniker": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\BST\\main.cpp",
+              "RelativeDocumentMoniker": "BST\\main.cpp",
+              "ToolTip": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\BST\\main.cpp",
+              "RelativeToolTip": "BST\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-10-08T07:00:47.7Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "stack.h",
-              "DocumentMoniker": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\Stack\\stack.h",
-              "RelativeDocumentMoniker": "Stack\\stack.h",
-              "ToolTip": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\Stack\\stack.h",
-              "RelativeToolTip": "Stack\\stack.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-10-08T06:56:53.168Z",
+              "WhenOpened": "2026-10-15T08:41:51.555Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "stack.cpp",
-              "DocumentMoniker": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\Stack\\stack.cpp",
-              "RelativeDocumentMoniker": "Stack\\stack.cpp",
-              "ToolTip": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\Stack\\stack.cpp",
-              "RelativeToolTip": "Stack\\stack.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Title": "BST.h",
+              "DocumentMoniker": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\BST\\BST.h",
+              "RelativeDocumentMoniker": "BST\\BST.h",
+              "ToolTip": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\BST\\BST.h",
+              "RelativeToolTip": "BST\\BST.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-10-15T08:14:56.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BSTNode.h",
+              "DocumentMoniker": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\BST\\BSTNode.h",
+              "RelativeDocumentMoniker": "BST\\BSTNode.h",
+              "ToolTip": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\BST\\BSTNode.h",
+              "RelativeToolTip": "BST\\BSTNode.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-10-15T08:10:32.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BST.cpp",
+              "DocumentMoniker": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\BST\\BST.cpp",
+              "RelativeDocumentMoniker": "BST\\BST.cpp",
+              "ToolTip": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\BST\\BST.cpp",
+              "RelativeToolTip": "BST\\BST.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-10-08T06:54:49.938Z",
+              "WhenOpened": "2026-10-15T08:09:42.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BSTNode.cpp",
+              "DocumentMoniker": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\BST\\BSTNode.cpp",
+              "RelativeDocumentMoniker": "BST\\BSTNode.cpp",
+              "ToolTip": "C:\\Users\\emilia.pesonen\\Documents\\GitHub\\Algorithms\\BST\\BSTNode.cpp",
+              "RelativeToolTip": "BST\\BSTNode.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-15T08:18:12.127Z",
               "EditorCaption": ""
             }
           ]
