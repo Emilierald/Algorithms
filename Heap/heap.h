@@ -1,19 +1,20 @@
 #pragma once
-#define MAX_SIZE 255
+#include <vector>
 
 class Heap {
 public: 
 	
-	Heap() {
+	Heap(int maxSize = 10000000) {
+		heapArray.resize(maxSize + 1);
 		heapArray[0] = 0;
 	}
 
 	void Insert(int key);
-	int Del_min();
 	void Print();
+	void DeleteMin();
 	int Length() { return heapArray[0]; } // just return cuurent length (stored at index 0)
 
 private: 
 	
-	int heapArray[MAX_SIZE + 1];
+	std::vector<int> heapArray;
 };

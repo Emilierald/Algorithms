@@ -35,13 +35,6 @@ void Heap::Insert(int key)
         index = parent_index;
         parent_index = index / 2;
     }
-
-    return;
-}
-
-int Heap::Del_min()
-{
-    return 0;
 }
 
 void Heap::Print()
@@ -54,4 +47,37 @@ void Heap::Print()
     }
     std::cout << std::endl;
     return;
+}
+
+void Heap::DeleteMin()
+{
+    // Get the last element
+    int lastElement = heapArray[Length()];
+
+    // Replace root with last element
+    heapArray[1] = lastElement;
+
+    // Decrease size of heap
+    heapArray[0]--;
+
+    while (true) 
+    {
+        int root = 1;
+        int child1 = 2 * 1;
+        int child2 = 2 * 1 + 1;
+
+        // If left child is larger than root
+        if (child1 <= Length() && heapArray[child1] < heapArray[root])
+            root = child1;
+
+        // If right child is larger than largest so far
+        if (child2 <= Length() && heapArray[child2] < heapArray[root])
+            root = child2;
+
+        // If largest is not root
+        if (root != 1) {
+            std::swap(heapArray[1], heapArray[root]);
+        }
+        else { break; } //if root is 1
+    }
 }
