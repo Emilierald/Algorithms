@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{523F36A9-42E7-412C-99F1-1561722FBDA2}|Heap\\Heap.vcxproj|C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\Heap\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{523F36A9-42E7-412C-99F1-1561722FBDA2}|Heap\\Heap.vcxproj|solutionrelative:Heap\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1694E4CE-8963-486D-B8D3-8930B3750EE3}|ShellSort\\ShellSort.vcxproj|C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\ShellSort\\ShellSort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1694E4CE-8963-486D-B8D3-8930B3750EE3}|ShellSort\\ShellSort.vcxproj|solutionrelative:ShellSort\\ShellSort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{523F36A9-42E7-412C-99F1-1561722FBDA2}|Heap\\Heap.vcxproj|C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\Heap\\heap.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{523F36A9-42E7-412C-99F1-1561722FBDA2}|Heap\\Heap.vcxproj|solutionrelative:Heap\\heap.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{523F36A9-42E7-412C-99F1-1561722FBDA2}|Heap\\Heap.vcxproj|C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\Heap\\Heap.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{523F36A9-42E7-412C-99F1-1561722FBDA2}|Heap\\Heap.vcxproj|solutionrelative:Heap\\Heap.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{EA1E9EA8-1152-4BCF-868B-D89D56B21791}|MergeSort\\MergeSort.vcxproj|C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\MergeSort\\MergeSort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EA1E9EA8-1152-4BCF-868B-D89D56B21791}|MergeSort\\MergeSort.vcxproj|solutionrelative:MergeSort\\MergeSort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "heap.h",
-              "DocumentMoniker": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\Heap\\heap.h",
-              "RelativeDocumentMoniker": "Heap\\heap.h",
-              "ToolTip": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\Heap\\heap.h",
-              "RelativeToolTip": "Heap\\heap.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-11-11T20:08:45.351Z",
+              "Title": "MergeSort.cpp",
+              "DocumentMoniker": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\MergeSort\\MergeSort.cpp",
+              "RelativeDocumentMoniker": "MergeSort\\MergeSort.cpp",
+              "ToolTip": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\MergeSort\\MergeSort.cpp",
+              "RelativeToolTip": "MergeSort\\MergeSort.cpp",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-11-18T15:32:17.131Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\Heap\\main.cpp",
-              "RelativeDocumentMoniker": "Heap\\main.cpp",
-              "ToolTip": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\Heap\\main.cpp",
-              "RelativeToolTip": "Heap\\main.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAiwCAAAAAAAAAAAAAAAA==",
+              "Title": "ShellSort.cpp",
+              "DocumentMoniker": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\ShellSort\\ShellSort.cpp",
+              "RelativeDocumentMoniker": "ShellSort\\ShellSort.cpp",
+              "ToolTip": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\ShellSort\\ShellSort.cpp",
+              "RelativeToolTip": "ShellSort\\ShellSort.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-11-11T20:08:43.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Heap.cpp",
-              "DocumentMoniker": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\Heap\\Heap.cpp",
-              "RelativeDocumentMoniker": "Heap\\Heap.cpp",
-              "ToolTip": "C:\\Users\\emili\\Documents\\GitHub\\Algorithms\\Heap\\Heap.cpp",
-              "RelativeToolTip": "Heap\\Heap.cpp",
-              "ViewState": "AgIAAAgAAAAAAAAAAADwvwoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-11-11T20:08:42.914Z",
+              "WhenOpened": "2026-11-18T14:44:46.633Z",
               "EditorCaption": ""
             }
           ]
